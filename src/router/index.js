@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../components/Home.vue'
 import Card from '../components/Card.vue'
+import Mentor from '../components/Mentor.vue'
 
 Vue.use(VueRouter)
 
@@ -25,6 +26,11 @@ const routes = [
     path: '/card',
     name: 'Card',
     component: Card
+  },
+  {
+    path: '/mentor',
+    name: 'Mentor',
+    component: Mentor
   },
 ]
 
