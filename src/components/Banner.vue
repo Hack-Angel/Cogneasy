@@ -80,6 +80,7 @@ export default {
 <style scoped>
 .about_content{
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 h1 span{
   display: block;
