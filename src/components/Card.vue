@@ -1,9 +1,10 @@
 <template>
-    <div class="card_text card_bg">
+    <div class="card_text">
+        <div class="card_bg"></div>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-3">
-                    <div class="card text-center main_content" style="width: 18rem;">
+                    <div class="card text-center main_content" style="width: 16rem;">
                         <div class="card-body">
                             <h1 class="card-title">3500K+</h1>
                             <p class="card-text">Students</p>
@@ -11,18 +12,18 @@
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="card text-center main_content" style="width: 18rem;">
+                    <div class="card text-center main_content" style="width: 16rem;">
                         <div class="card-body">
                             <h1 class="card-title">10K+</h1>
-                            <p class="card-text">Students</p>
+                            <p class="card-text">Courses</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="card text-center main_content" style="width: 18rem;">
+                    <div class="card text-center main_content" style="width: 16rem;">
                         <div class="card-body">
                             <h1 class="card-title">5K+</h1>
-                            <p class="card-text">Students</p>
+                            <p class="card-text">Mentors</p>
                         </div>
                     </div>
                 </div>
@@ -44,12 +45,15 @@ export default {
     padding-top: 3rem;
     padding-bottom: 4rem;
 }
-/* .card_bg{
+.card_bg{
     background-image: url('~@/assets/img_1/Vector.png');
-    height: 700px;
+    height: 200px;
     background-position:center right;
     background-size:cover;   
-} */
+}
+h1{
+    padding-top: 1rem;
+}
 .main_content{
     background-color: white;
     border-radius:30px 0 30px 0;
