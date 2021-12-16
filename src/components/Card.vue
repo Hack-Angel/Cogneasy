@@ -6,7 +6,7 @@
                 <div class="col-3">
                     <div class="card text-center main_content" style="width: 16rem;">
                         <div class="card-body">
-                            <h1 class="card-title">3500K+</h1>
+                            <h1 class="card-title">3500+</h1>
                             <p class="card-text">Students</p>
                         </div>
                     </div>
@@ -14,7 +14,7 @@
                 <div class="col-3">
                     <div class="card text-center main_content" style="width: 16rem;">
                         <div class="card-body">
-                            <h1 class="card-title">10K+</h1>
+                            <h1 class="card-title">10+</h1>
                             <p class="card-text">Courses</p>
                         </div>
                     </div>
@@ -22,7 +22,7 @@
                 <div class="col-3">
                     <div class="card text-center main_content" style="width: 16rem;">
                         <div class="card-body">
-                            <h1 class="card-title">5K+</h1>
+                            <h1 class="card-title">5+</h1>
                             <p class="card-text">Mentors</p>
                         </div>
                     </div>
@@ -53,10 +53,11 @@ export default {
 }
 h1{
     padding-top: 1rem;
+    font-weight:bold;
 }
 .main_content{
     background-color: white;
-    border-radius:30px 0 30px 0;
+    border-radius: 0 30px 0 30px;
     height: 10rem;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

@@ -5,6 +5,7 @@
     </div>
    <Banner />
    <Card />
+   <Upskill />
   </div>
 </template>
 
@@ -12,6 +13,7 @@
 import Navbar from '@/components/Navbar.vue'
 import Banner from '@/components/Banner.vue'
 import Card from '@/components/Card.vue'
+import Upskill from '@/components/Upskill.vue'
 
 export default {
   name: 'Home',
@@ -19,6 +21,8 @@ export default {
     Navbar,
     Banner,
     Card,
+    Upskill
+    
   }
 }
 </script>
