@@ -11,7 +11,7 @@
                             <a class="nav-link active" aria-current="page" href="#" ><router-link to="/about"> About Us </router-link></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><router-link to="/case"> Find a Mentor </router-link></a>
+                            <a class="nav-link" href="#"><router-link to="/find"> Find a Mentor </router-link></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"><router-link to="/talk"> Acquire a Skill </router-link></a>

@@ -1,7 +1,6 @@
 <template>
-    <div class="platform">
-    
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="guide">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -14,9 +13,9 @@
               <div class="col-md-7 sub_text">
                 <div class="col">
                 <h1>
-                  <span>We are Africa’s </span>
-                  <span> first knowledge </span>
-                  <span> exchange platform </span>
+                  <span>Need a guide to </span>
+                  <span> facilitate your  </span>
+                  <span> career progress? </span>
                 </h1>
                 </div>
                 <div class="pagination">
@@ -43,7 +42,7 @@
                 </div>
               </div>
               <div class="col-md-5">
-                <img src='~@/assets/img_4/about_img.png' class="img-fluid">
+                <img src='~@/assets/img_4/guide_img.jpg' class="img-fluid">
               </div>
             </div>
             </div>
@@ -58,19 +57,18 @@
 
 
 export default{
-    name: 'Platform',
+    name: 'Guide',
     components: {
-        
+      
     },
 }
 </script>
 
 <style scoped>
-.platform{
+.guide{
+  background-color: white;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  /* background-color: white;
-  box-shadow: 0px 3px 10px 0px #0640b41a; */
 }
 span{
   display: block;
@@ -120,7 +118,6 @@ h3{
 .pagination {
   display: inline-block;
 }
-
 .pagination a {
   color: black;
   float: left;

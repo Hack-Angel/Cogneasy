@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../components/Home.vue'
 import Banner from '../components/Banner.vue'
 import Card from '../components/Card.vue'
-// import Platform from '../components/Platform.vue'
+import Find from '../components/Find.vue'
 
 
 Vue.use(VueRouter)
@@ -34,11 +34,11 @@ const routes = [
     name: 'Card',
     component: Card
   },
-  // {
-  //   path: '/platform',
-  //   name: 'Platform',
-  //   component: Platform
-  // }
+  {
+    path: '/find',
+    name: 'Find',
+    component: Find
+  }
   
 ]
 

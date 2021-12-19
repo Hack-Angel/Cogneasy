@@ -6,6 +6,7 @@
             <Diaspora />
             <Team />
         </div>
+        <Footer />
     </div>
 </template>
 
@@ -14,6 +15,7 @@ import Navbar from '@/components/Navbar.vue'
 import Platform from '@/components/Platform.vue'
 import Diaspora from '@/components/Diaspora.vue'
 import Team from '@/components/Team.vue'
+import Footer from '@/components/Footer.vue'
 
 
 export default{
@@ -23,6 +25,7 @@ export default{
         Platform,
         Diaspora,
         Team,
+        Footer,
     },
 }
 </script>

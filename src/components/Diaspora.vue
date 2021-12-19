@@ -1,5 +1,8 @@
 <template>
     <div class="diaspora">
+        <div class="diaspora_bg">
+            <img src='~@/assets/img_1/Vector.png' style="width: 40rem;">
+        </div>
         <div class="container">
             <div class="row justify-content-around">
                 <div class="col-md-6">
@@ -69,5 +72,11 @@ h2{
 }
 .new_img{
    padding-top: 10rem;
+}
+.diaspora_bg{
+  position: absolute;
+  left: 5px;
+  bottom: 15px;
+  z-index: -5; 
 }
 </style>
