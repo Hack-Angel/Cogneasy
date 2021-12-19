@@ -10,7 +10,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <div class="card main_content" style="width: 20rem;">
+                <div class="card main_content sub_img" style="width: 20rem;">
                     <img src="~@/assets/img_2/skill_img1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="sub_content">
-            <button type="button" class="sub_btn btn-primary">Learn More</button>
+            <button type="button" class="sub_btn btn-primary">View All</button>
         </div>
     </div>
   </div>
@@ -73,9 +73,12 @@ export default {
     padding-top: 2rem;
     padding-bottom: 5rem;
 }
+.sub_img img{
+     border-radius: 0px 30px 30px 30px;
+}
 .main_content{
     border-radius: 0 30px 30px 30px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0px 3px 10px 10px #0640b41a;
 }
 .main_text{
     padding-bottom: 5rem;
@@ -95,7 +98,7 @@ span{
     display: block;
 }
 .btn{
-    font-weight: bold;
+    font-weight: normal;
     padding: 0.3rem 1rem;
     border-radius:0 30px;
     color: white;

@@ -1,11 +1,11 @@
 <template>
     <div class="mentor">
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src='~@/assets/img_1/banner_2.jpg' class="img-fluid">
+            <div class="row justify-content-around">
+                <div class="col-md-4">
+                    <img src='~@/assets/img_2/mentor_img.jpg' style="width: 30rem;">
                 </div>
-                <div class="col">
+                <div class="col-md-4 sub_content">
                     <h1> Get Mentored </h1>
                     <h2> 
                         <span>Find mentors who are</span>
@@ -24,13 +24,34 @@
 
 <script>
 
-export {
+export default{
+    name: 'Mentor',
+  components: {
     
+  }
 }
 </script>
 
 <style scoped>
 .mentor{
     background-color: peach;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+span{
+    display: block;
+}
+.sub_content{
+    padding-top: 10rem;
+}
+h1{
+    font-size: 18px;
+    color: #FF9E01;
+}
+h2{
+    font-size: 40px;
+}
+.sub_content p{
+    font-size: 16px;
 }
 </style>

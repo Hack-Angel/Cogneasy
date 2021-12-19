@@ -1,6 +1,8 @@
 <template>
     <div class="card_text">
-        <div class="card_bg"></div>
+        <div class="card_bg">
+            <img src='~@/assets/img_1/Vector.png' style="width: 40rem;">
+        </div>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-3">
@@ -60,10 +62,16 @@ h1{
     border-radius: 0 30px 0 30px;
     height: 10rem;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 3px 10px 8px #0640b41a;
 }
 .main_content:hover {
     background-color: #FF9E01;
     color: white;
+}
+.card_bg{
+  position: absolute;
+  left: 5px;
+  bottom: 15px;
+  z-index: -5; 
 }
 </style>
