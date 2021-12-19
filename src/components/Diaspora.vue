@@ -1,19 +1,19 @@
 <template>
     <div class="diaspora">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-around">
                 <div class="col-md-6">
                     <div class="row justify-content-center">
-                        <div class="col new_img">
+                        <div class="col-md-4 new_img">
                             <img src='~@/assets/img_5/diaspora_img1.jpg' style="width: 15rem;">
                         </div>
-                        <div class="col">
+                        <div class="col-md-2">
                             <img src='~@/assets/img_5/diaspora_img2.jpg' style="width: 15rem;">
                             <img src='~@/assets/img_5/diaspora_img3.jpg' style="width: 15rem;">
                         </div>
                     </div>     
                 </div>
-                <div class="col-md-4 sub_content">
+                <div class="col-md-6 sub_content">
                     <h1> ABOUT US </h1>
                     <h2> 
                         <span>For Diasporan</span>
@@ -68,6 +68,6 @@ h2{
     font-size: 16px;
 }
 .new_img{
-   padding-top: 7rem;
+   padding-top: 10rem;
 }
 </style>
