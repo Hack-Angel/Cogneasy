@@ -4,6 +4,8 @@ import Home from '../components/Home.vue'
 import Banner from '../components/Banner.vue'
 import Card from '../components/Card.vue'
 import Find from '../components/Find.vue'
+import Acquire from '../components/Acquire.vue'
+import Contact from '../components/Contact.vue'
 
 
 Vue.use(VueRouter)
@@ -38,6 +40,16 @@ const routes = [
     path: '/find',
     name: 'Find',
     component: Find
+  },
+  {
+    path: '/acquire',
+    name: 'Acquire',
+    component: Acquire
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   }
   
 ]

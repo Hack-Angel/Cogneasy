@@ -14,10 +14,10 @@
                             <a class="nav-link" href="#"><router-link to="/find"> Find a Mentor </router-link></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><router-link to="/talk"> Acquire a Skill </router-link></a>
+                            <a class="nav-link" href="#"><router-link to="/acquire"> Acquire a Skill </router-link></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><router-link to="/menu"> Contact Us </router-link></a>
+                            <a class="nav-link" href="#"><router-link to="/contact"> Contact Us </router-link></a>
                         </li>
                     </ul>
                 </nav> 
