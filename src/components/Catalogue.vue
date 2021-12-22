@@ -12,7 +12,7 @@
                         <div class="card-body card_body">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img src='~@/assets/img_3/meet_img3.jpg' style="width: 5rem;">
+                                    <img src='~@/assets/img_3/meet_img3.jpg' class="img-fluid" style="width: 5rem;">
                                 </div>
                                  <div class="col-md-9 main_text">
                                     <h1>Dare Oduale</h1>
@@ -44,7 +44,7 @@
                         <div class="card-body">
                             <div class="row">
                                     <div class="col-md-2">
-                                        <img src='~@/assets/img_3/meet_img2.jpg' style="width: 5rem;">
+                                        <img src='~@/assets/img_3/meet_img2.jpg' class="img-fluid" style="width: 5rem;">
                                     </div>
                                     <div class="col-md-8 main_text">
                                         <h1>John Ohakim</h1>
@@ -78,7 +78,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img src='~@/assets/img_3/meet_img1.jpg' style="width: 5rem;">
+                                    <img src='~@/assets/img_3/meet_img1.jpg' class="img-fluid" style="width: 5rem;">
                                 </div>
                                  <div class="col-md-9 main_text">
                                     <h1>Samuel Osho</h1>
@@ -110,7 +110,7 @@
                         <div class="card-body">
                             <div class="row">
                                     <div class="col-md-2">
-                                        <img src='~@/assets/img_3/tobenna_p.jpg' style="width: 5rem;">
+                                        <img src='~@/assets/img_3/tobenna_p.jpg' class="img-fluid" style="width: 5rem;">
                                     </div>
                                     <div class="col-md-8 main_text">
                                         <h1>Dr Tobenna Philips</h1>
@@ -144,7 +144,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img src='~@/assets/img_3/chima_omike.jpg' style="width: 5rem;">
+                                    <img src='~@/assets/img_3/chima_omike.jpg' class="img-fluid" style="width: 5rem;">
                                 </div>
                                  <div class="col-md-9 main_text">
                                     <h1>Chima Omike</h1>
@@ -176,7 +176,7 @@
                         <div class="card-body">
                             <div class="row">
                                     <div class="col-md-2">
-                                        <img src='~@/assets/img_3/emmanuel.jpg' style="width: 5rem;">
+                                        <img src='~@/assets/img_3/emmanuel.jpg' class="img-fluid" style="width: 5rem;">
                                     </div>
                                     <div class="col-md-8 main_text">
                                         <h1>Emmanuel O. Adesuyi</h1>
@@ -210,9 +210,9 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img src='~@/assets/img_3/adekola.jpg' style="width: 5rem;">
+                                    <img src='~@/assets/img_3/adekola.jpg' class="img-fluid" style="width: 5rem;">
                                 </div>
-                                 <div class="col-md-9 main_text">
+                                 <div class="col-md-9 card-text main_text">
                                     <h1>Adeola Fakolade</h1>
                                     <h2>Preventive Medicine/Digital Health Solutions, USA</h2>
                                  </div>
@@ -242,9 +242,9 @@
                         <div class="card-body">
                             <div class="row">
                                     <div class="col-md-2">
-                                        <img src='~@/assets/img_3/cletus.jpg' style="width: 5rem;">
+                                        <img src='~@/assets/img_3/cletus.jpg' class="img-fluid" style="width: 5rem;">
                                     </div>
-                                    <div class="col-md-8 main_text">
+                                    <div class="col-md-8 card-text main_text">
                                         <h1>Cletus Ajibade</h1>
                                         <h2>Software Engineering/Social Entrepreneurship, USA</h2>
                                     </div>

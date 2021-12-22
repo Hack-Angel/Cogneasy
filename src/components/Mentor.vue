@@ -1,9 +1,9 @@
 <template>
     <div class="mentor">
         <div class="container">
-            <div class="row justify-content-around">
+            <div class="row justify-content-evenly">
                 <div class="col-md-4">
-                    <img src='~@/assets/img_2/mentor_img.jpg' style="width: 30rem;">
+                    <img src='~@/assets/img_2/mentor_img.jpg'  class="img-fluid" style="width: 30rem;">
                 </div>
                 <div class="col-md-4 sub_content">
                     <h1> Get Mentored </h1>

@@ -1,28 +1,28 @@
 <template>
     <div class="card_text">
         <div class="card_bg">
-            <img src='~@/assets/img_1/Vector.png' style="width: 40rem;">
+            <img src='~@/assets/img_1/Vector.png' class="img-fluid" style="width: 40rem;">
         </div>
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-3">
-                    <div class="card text-center main_content" style="width: 16rem;">
+            <div class="row justify-content-evenly">
+                <div class="col-md-3">
+                    <div class="card text-center main_content img-fluid" style="width: 16rem;">
                         <div class="card-body">
                             <h1 class="card-title">3500+</h1>
                             <p class="card-text">Students</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="card text-center main_content" style="width: 16rem;">
+                <div class="col-md-3">
+                    <div class="card text-center main_content img-fluid" style="width: 16rem;">
                         <div class="card-body">
                             <h1 class="card-title">10+</h1>
                             <p class="card-text">Courses</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="card text-center main_content" style="width: 16rem;">
+                <div class="col-md-3">
+                    <div class="card text-center main_content img-fluid" style="width: 16rem;">
                         <div class="card-body">
                             <h1 class="card-title">5+</h1>
                             <p class="card-text">Mentors</p>
@@ -50,7 +50,7 @@ export default {
 .card_bg{
     background-image: url('~@/assets/img_1/Vector.png');
     height: 200px;
-    background-position:center right;
+    /* background-position:center right; */
     background-size:cover;   
 }
 h1{
@@ -70,7 +70,7 @@ h1{
 }
 .card_bg{
   position: absolute;
-  left: 5px;
+  left: 0px;
   bottom: 15px;
   z-index: -5; 
 }

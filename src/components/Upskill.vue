@@ -9,20 +9,20 @@
             </h2>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-md-4">
                 <div class="card main_content sub_img" style="width: 20rem;">
                     <img src="~@/assets/img_2/skill_img1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
                         <h5 class="card-title sub_text">
-                            <span>Communicate Like</span>
-                            <span> A Pro </span>
+                            <span>Communicate </span>
+                            <span> Like A Pro </span>
                         </h5>
                         <a href="/">Start Now!</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-4">
                 <div class="card main_content" style="width: 20rem;">
                     <img src="~@/assets/img_2/skill_img2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-4">
                 <div class="card main_content" style="width: 20rem;">
                     <img src="~@/assets/img_2/skill_img3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
