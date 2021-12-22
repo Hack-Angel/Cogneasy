@@ -60,14 +60,14 @@
                   <span> an advantage. </span>
                 </h3>
                 <button type="button" class="btn btn-primary">Start Learning</button>
-                <div class="pagination">
-                  <a href="#">❮</a>
-                  <a href="#">❯</a>
-                </div>
               </div>
               <div class="col-md-5">
                 <img src='~@/assets/img_1/banner_3.jpg' class="img-fluid">
               </div>
+              <div class="pagination">
+                  <a href="#">❮</a>
+                  <a href="#">❯</a>
+                </div>
             </div>
           </div>
         </div>
@@ -139,7 +139,6 @@ h3{
 .btn:hover {
   background-color: white;
   color: #0640B4;
-  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
 }
 .pagination {
   display: inline-block;
