@@ -27,9 +27,9 @@
               <span>50, Ogbomoso-Ilorin Rd, </span>
               <span>General Area, Ogbomoso</span>
             </p>
-            <div class="container">
+            <div class="container social">
               <div class="row">
-                <div class="col-md-4">
+                <div class="col">
                   <img src='~@/assets/img_3/facebook.png' style="width: 50px;">
                 </div>
                 <div class="col">
@@ -73,5 +73,8 @@ h1{
 }
 .main_content img{
   padding-bottom: 2rem;
+}
+.social{
+  padding-left: 0rem;
 }
 </style>
