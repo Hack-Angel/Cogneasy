@@ -14,14 +14,14 @@
                 <div class="col">
                 <h1>
                   <span>Get mentored; </span>
-                  <span>Get upskilled. </span>
-                  <button type="button" class="btn btn-primary">Learn More</button>
+                  <span>Get upskilled. </span>     
                 </h1>
+                <button type="button" class="btn btn-primary">Learn More</button>
                 </div>
-                <div class="pagination">
-                  <a href="#">❮</a>
-                  <a href="#">❯</a>
-                </div>
+                  <div class="pagination">
+                      <a href="#">❮</a>
+                      <a href="#">❯</a>
+                  </div>
               </div>
               <div class="col-md-5">
                 <img src='~@/assets/img_1/banner_img.jpg' class="img-fluid">
@@ -33,12 +33,14 @@
           <div class="container banner_content">
             <div class="row justify-content-center">
               <div class="col-md-7 sub_text">
+                <div class="col">
                 <h2>
                   <span>Explore and connect </span>
                   <span> with mentors across</span>
                   <span> the world</span>
                 </h2>
                 <button type="button" class="btn btn-primary">Find a Mentor</button>
+                </div>
                 <div class="pagination">
                   <a href="#">❮</a>
                   <a href="#">❯</a>
@@ -54,31 +56,33 @@
           <div class="container banner_content">
             <div class="row justify-content-center">
               <div class="col-md-7 sub_text">
+                <div class="col">
                 <h3>
                   <span>Acquire cutting-edge</span>
                   <span> skills that gives you</span>
                   <span> an advantage. </span>
                 </h3>
                 <button type="button" class="btn btn-primary">Start Learning</button>
+                </div>
+                <div class="pagination">
+                  <a href="#">❮</a>
+                  <a href="#">❯</a>
+                </div>
               </div>
               <div class="col-md-5">
                 <img src='~@/assets/img_1/banner_3.jpg' class="img-fluid">
               </div>
-              <div class="pagination">
-                  <a href="#">❮</a>
-                  <a href="#">❯</a>
-                </div>
             </div>
           </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+        <!-- <span class="visually-hidden">Previous</span> -->
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+        <!-- <span class="visually-hidden">Next</span> -->
       </button>
     </div>
   </div>
@@ -104,7 +108,7 @@ h1{
   font-weight: bold;
 }
 .sub_text h1{
-  padding-bottom: 7rem;
+  padding-bottom: 4rem;
 }
 h2{
   font-size: 70px;
@@ -116,6 +120,9 @@ h3{
 }
 .sub_text h2, .sub_text h3 {
   padding-bottom: 3rem;
+}
+.sub_text{
+  padding-bottom: 1rem;
 }
 .btn {
   border: none;
@@ -142,10 +149,11 @@ h3{
 }
 .pagination {
   display: inline-block;
+  padding-top: 5rem;
 }
 
 .pagination a {
-  color: black;
+  background-color: white;
   float: left;
   padding: 8px 16px;
   text-decoration: none;
