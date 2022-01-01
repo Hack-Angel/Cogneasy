@@ -12,33 +12,11 @@
             <div class="row justify-content-center1 ">
               <div class="col-md-7 sub_text">
                 <div class="col">
-                <h1>
-                  <span>Need a guide to </span>
-                  <span> facilitate your  </span>
-                  <span> career progress? </span>
-                </h1>
-                </div>
-                <div class="pagination">
-                <a href="#">
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                </a>
-                <a href="#">
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                  </button>
-                </a>
-                  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                  </button> -->
+                  <h1>
+                    <span>Need a guide to </span>
+                    <span> facilitate your  </span>
+                    <span> career progress? </span>
+                  </h1>
                 </div>
               </div>
               <div class="col-md-5">
