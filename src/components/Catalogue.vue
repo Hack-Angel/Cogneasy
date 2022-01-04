@@ -8,7 +8,7 @@
            </h2>
            <div class="row">
                <div class="col-md-6 catalogue_main">
-                   <div class="card main_content" style="width: 35rem;">
+                   <div class="card main_content">
                         <div class="card-body card_body">
                             <div class="row">
                                 <div class="col-md-3">
@@ -39,8 +39,8 @@
                         </div>
                     </div>
                </div>
-                <div class="col-md-6">
-                    <div class="card main_content" style="width: 35rem;">
+                <div class="col-md-6 catalogue_main">
+                    <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
                                     <div class="col-md-2">
@@ -74,7 +74,7 @@
             </div>
              <div class="row">
                <div class="col-md-6 catalogue_main">
-                   <div class="card main_content" style="width: 35rem;">
+                   <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-3">
@@ -105,8 +105,8 @@
                         </div>
                     </div>
                </div>
-                <div class="col-md-6">
-                    <div class="card main_content" style="width: 35rem;">
+                <div class="col-md-6 catalogue_main">
+                    <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
                                     <div class="col-md-2">
@@ -140,7 +140,7 @@
             </div>
              <div class="row">
                <div class="col-md-6 catalogue_main">
-                   <div class="card main_content" style="width: 35rem;">
+                   <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-3">
@@ -148,7 +148,9 @@
                                 </div>
                                  <div class="col-md-9 main_text">
                                     <h1>Chima Omike</h1>
-                                    <h2>Software QA/Renewable Energy, USA</h2>
+                                    <h2><span>Software QA/Renewable Energy,</span>
+                                        <span>USA</span>
+                                    </h2>
                                  </div>
                             </div>
                                 <p class="card-text">
@@ -171,16 +173,19 @@
                         </div>
                     </div>
                </div>
-                <div class="col-md-6">
-                    <div class="card main_content" style="width: 35rem;">
+                <div class="col-md-6 catalogue_main">
+                    <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
-                                    <div class="col-md-2">
+                                    <div class="col-md-3">
                                         <img src='~@/assets/img_3/emmanuel.jpg' class="img-fluid" style="width: 5rem;">
                                     </div>
-                                    <div class="col-md-8 main_text">
+                                    <div class="col-md-9 main_text">
                                         <h1>Emmanuel O. Adesuyi</h1>
-                                        <h2>Epidemiology/Genomics/Oncology, United Kingdom</h2>
+                                        <h2>
+                                            <span>Epidemiology/Genomics/Oncology,</span>
+                                            <span>United Kingdom</span>
+                                        </h2>
                                     </div>
                             </div>
                             <p class="card-text">
@@ -199,14 +204,14 @@
                                 <span> Agile; managing delivery of customer enegagement products; </span>
                                 <span> and service design to exceed customer expectations </span>
                             </p>
-                            <h4>Dare Oduale</h4>
+                            <h4>Mentor Me</h4>
                         </div>
                     </div>
                 </div>
             </div>
              <div class="row">
                <div class="col-md-6 catalogue_main">
-                   <div class="card main_content" style="width: 35rem;">
+                   <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-3">
@@ -214,7 +219,9 @@
                                 </div>
                                  <div class="col-md-9 card-text main_text">
                                     <h1>Adeola Fakolade</h1>
-                                    <h2>Preventive Medicine/Digital Health Solutions, USA</h2>
+                                    <h2><span>Preventive Medicine/Digital</span>
+                                        <span>Health Solutions, USA</span>
+                                    </h2>
                                  </div>
                             </div>
                                 <p class="card-text">
@@ -237,16 +244,18 @@
                         </div>
                     </div>
                </div>
-                <div class="col-md-6">
-                    <div class="card main_content" style="width: 35rem;">
+                <div class="col-md-6 catalogue_main">
+                    <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
-                                    <div class="col-md-2">
+                                    <div class="col-md-3">
                                         <img src='~@/assets/img_3/cletus.jpg' class="img-fluid" style="width: 5rem;">
                                     </div>
-                                    <div class="col-md-8 card-text main_text">
+                                    <div class="col-md-9 card-text main_text">
                                         <h1>Cletus Ajibade</h1>
-                                        <h2>Software Engineering/Social Entrepreneurship, USA</h2>
+                                        <h2><span>Software Engineering/Social</span> 
+                                            <span>Entrepreneurship, USA</span>
+                                        </h2>
                                     </div>
                             </div>
                             <p class="card-text">
@@ -265,7 +274,7 @@
                                 <span> Agile; managing delivery of customer enegagement products; </span>
                                 <span> and service design to exceed customer expectations </span>
                             </p>
-                            <h4>Dare Oduale</h4>
+                            <h4>Mentor Me</h4>
                         </div>
                     </div>
                 </div>
@@ -300,6 +309,9 @@ export default{
 span{
   display: block;
 }
+.card_body{
+    padding-left: 2rem;
+}
 h1{
     text-align: center;
     color: #FF9E01;
@@ -311,7 +323,7 @@ h2{
     padding-bottom: 3rem;
 }
 .catalogue_main{
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 .main_content{
     padding-left: 2rem;

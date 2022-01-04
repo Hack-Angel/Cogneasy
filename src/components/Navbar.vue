@@ -40,7 +40,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  
 }
 a{
   text-decoration:none;
