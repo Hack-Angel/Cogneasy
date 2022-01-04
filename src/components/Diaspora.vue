@@ -1,22 +1,22 @@
 <template>
     <div class="diaspora">
         <div class="diaspora_bg">
-            <img src='~@/assets/img_1/Vector.png' style="width: 40rem;">
+            <img src='~@/assets/img_1/Vector.png' class="img-fluid">
         </div>
         <div class="container">
-            <div class="row justify-content-around">
-                <div class="col-md-6">
+            <div class="row justify-content-center">
+                <div class="col-md-6 main_body">
                     <div class="row justify-content-center">
-                        <div class="col-md-4 new_img">
-                            <img src='~@/assets/img_5/diaspora_img1.jpg' style="width: 15rem;">
+                        <div class="col-md-5 new_img">
+                            <img src='~@/assets/img_5/diaspora_img1.jpg' class="img-fluid">
                         </div>
-                        <div class="col-md-2">
-                            <img src='~@/assets/img_5/diaspora_img2.jpg' style="width: 15rem;">
-                            <img src='~@/assets/img_5/diaspora_img3.jpg' style="width: 15rem;">
+                        <div class="col-md-5">
+                            <img src='~@/assets/img_5/diaspora_img2.jpg' class="img-fluid">
+                            <img src='~@/assets/img_5/diaspora_img3.jpg' class="img-fluid">
                         </div>
                     </div>     
                 </div>
-                <div class="col-md-6 sub_content">
+                <div class="col-md-5 main_body sub_content">
                     <h1> ABOUT US </h1>
                     <h2> 
                         <span>For Diasporan</span>
@@ -61,14 +61,17 @@ span{
     padding-top: 10rem;
 }
 h1{
-    font-size: 18px;
+    font-size: 20px;
     color: #FF9E01;
 }
 h2{
     font-size: 40px;
 }
+/* .main_body{
+    padding-top: 0.5rem;
+} */
 .sub_content p{
-    font-size: 16px;
+    font-size: 18px;
 }
 .new_img{
    padding-top: 10rem;

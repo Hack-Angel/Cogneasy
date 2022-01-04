@@ -2,19 +2,19 @@
     <div class="team">
         <div class="container">
             <h1>OUR TEAM</h1>
-           <div class="row text-center">
-               <div class="col">
-                   <img src='~@/assets/img_5/Oval_1.jpg' style="width: 12rem;">
+           <div class="row text-center justify-content-around">
+               <div class="col-md-3 main_body">
+                   <img src='~@/assets/img_5/Oval_1.jpg' class="img-fluid">
                    <h2>Jesudamilare Adesegun-David</h2>
                    <p>Content and Partnerships</p>
                </div>
-               <div class="col">
-                   <img src='~@/assets/img_5/Oval_3.jpg' style="width: 12rem;">
+               <div class="col-md-3 main_body">
+                   <img src='~@/assets/img_5/Oval_3.jpg' class="img-fluid">
                    <h2>Funto Adesola</h2>
                    <p>Business Development</p>
                </div>
-               <div class="col">
-                   <img src='~@/assets/img_5/Oval_2.jpg' style="width: 12rem;">
+               <div class="col-md-3 main_body">
+                   <img src='~@/assets/img_5/Oval_2.jpg' class="img-fluid">
                    <h2>Nathaniel Oboh</h2>
                    <p>Product Development</p>
                </div>
@@ -49,5 +49,8 @@ h1{
 }
 h2{
     font-size: 20px;
+}
+.main_body{
+    padding: 4rem;
 }
 </style>

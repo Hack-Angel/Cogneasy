@@ -5,24 +5,24 @@
         </div>
         <div class="container">
             <div class="row justify-content-evenly">
-                <div class="col-md-3">
-                    <div class="card text-center main_content img-fluid" style="width: 16rem;">
+                <div class="col-md-3 main_body">
+                    <div class="card text-center main_content">
                         <div class="card-body">
                             <h1 class="card-title">3500+</h1>
                             <p class="card-text">Students</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card text-center main_content img-fluid" style="width: 16rem;">
+                <div class="col-md-3 main_body">
+                    <div class="card text-center main_content">
                         <div class="card-body">
                             <h1 class="card-title">10+</h1>
                             <p class="card-text">Courses</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card text-center main_content img-fluid" style="width: 16rem;">
+                <div class="col-md-3 main_body">
+                    <div class="card text-center main_content">
                         <div class="card-body">
                             <h1 class="card-title">5+</h1>
                             <p class="card-text">Mentors</p>
@@ -67,6 +67,9 @@ h1{
 .main_content:hover {
     background-color: #FF9E01;
     color: white;
+}
+.main_body{
+    padding: 2rem;
 }
 .card_bg{
   position: absolute;

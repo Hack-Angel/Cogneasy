@@ -8,9 +8,9 @@
                 <span>in the world of work.</span>
             </h2>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card main_content sub_img" style="width: 20rem;">
+        <div class="row justify-content-evenly">
+            <div class="col-md-3 card_body">
+                <div class="card main_content sub_img">
                     <img src="~@/assets/img_2/skill_img1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
@@ -22,8 +22,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card main_content" style="width: 20rem;">
+            <div class="col-md-3 card_body">
+                <div class="card main_content">
                     <img src="~@/assets/img_2/skill_img2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
@@ -35,8 +35,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card main_content" style="width: 20rem;">
+            <div class="col-md-3 card_body">
+                <div class="card main_content">
                     <img src="~@/assets/img_2/skill_img3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
@@ -75,6 +75,9 @@ export default {
 }
 .sub_img img{
      border-radius: 0px 30px 30px 30px;
+}
+.card_body{
+    padding: 0.5rem;
 }
 .main_content{
     border-radius: 0 30px 30px 30px;

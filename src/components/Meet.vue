@@ -4,9 +4,9 @@
             <div class="meet_text">
                 <h1>Meet Some of Our Mentors</h1>
             </div>   
-            <div class="row justify-content-around">
-                <div class="col-md-3">
-                    <div class="card main-content" style="width: 20rem;">
+            <div class="row justify-content-evenly">
+                <div class="col-md-3 main_body">
+                    <div class="card main-content">
                         <div class="card-body text-center sub_content">
                             <img src="~@/assets/img_3/meet_img3.jpg" class="img-fluid" alt="...">
                             <h5 class="card-title">Dare Oduale</h5>
@@ -17,8 +17,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card main-content" style="width: 20rem;">
+                <div class="col-md-3 main_body">
+                    <div class="card main-content">
                         <div class="card-body text-center sub_cont">
                             <img src="~@/assets/img_3/meet_img2.jpg" class="img-fluid" alt="...">
                             <h5 class="card-title">John Ohakim</h5>
@@ -26,8 +26,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card main-content" style="width: 20rem;">
+                <div class="col-md-3 main_body">
+                    <div class="card main-content">
                         <div class="card-body text-center sub_content">
                             <img src="~@/assets/img_3/meet_img1.jpg" class="img-fluid" alt="...">
                             <h5 class="card-title">Sam Osho</h5>
@@ -79,6 +79,9 @@ img {
 .main-content{
     border-radius:0 30px 30px 30px;
     box-shadow: 0px 3px 10px 10px #0640b41a;
+}
+.main_body{
+    padding: 2rem;
 }
 .sub_content{
     padding-top: 2rem;
