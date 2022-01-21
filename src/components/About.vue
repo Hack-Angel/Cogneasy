@@ -39,4 +39,5 @@ export default{
   background-color: white;
   box-shadow: 0px 3px 10px 0px #0640b41a;
 }
+
 </style>

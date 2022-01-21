@@ -10,7 +10,7 @@
                         <div class="col-md-5 new_img">
                             <img src='~@/assets/img_5/diaspora_img1.jpg' class="img-fluid">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 old_img">
                             <img src='~@/assets/img_5/diaspora_img2.jpg' class="img-fluid">
                             <img src='~@/assets/img_5/diaspora_img3.jpg' class="img-fluid">
                         </div>
@@ -67,9 +67,6 @@ h1{
 h2{
     font-size: 40px;
 }
-/* .main_body{
-    padding-top: 0.5rem;
-} */
 .sub_content p{
     font-size: 18px;
 }
@@ -81,5 +78,34 @@ h2{
   left: 5px;
   bottom: 15px;
   z-index: -5; 
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+.diaspora{
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+}
+.new_img{
+  width: 300px;
+}
+.old_img{
+  width: 300px; 
+}
+.sub_content{
+  padding-top: 2rem;
+  text-align: center;
+}
+p{
+  font-size: 12px;
+}
+span{
+   display: inline;
+}
+h2{
+  font-size: 35px;
+}
 }
 </style>

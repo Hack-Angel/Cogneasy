@@ -72,4 +72,26 @@ p{
   background-color: #FF9E01;
   color: white;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+.creator{
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.main_content{
+  width: 400px;
+}
+.btn{
+  padding: 1rem 2rem;
+  font-size: 14px;
+}
+h1{
+  font-size: 30px;
+}
+p{
+  font-size: 15px;
+}
+}
 </style>

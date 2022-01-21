@@ -53,4 +53,22 @@ h2{
 .main_body{
     padding: 4rem;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+.team{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+h1{
+    font-size: 20px;
+    padding-bottom: 0rem;
+}
+.main_body{
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+}
 </style>

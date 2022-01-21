@@ -155,5 +155,13 @@ img {
 .main_body{
     padding: 2rem 5rem 2rem 5rem;
 }
+.main_btn{
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
+.sub_btn{
+    font-size: 12px;
+    padding: 1rem 2rem;
+}
 }
 </style>

@@ -47,8 +47,6 @@ export default{
 .platform{
   padding-top: 5rem;
   padding-bottom: 5rem;
-  /* background-color: white;
-  box-shadow: 0px 3px 10px 0px #0640b41a; */
 }
 span{
   display: block;
@@ -107,5 +105,20 @@ h3{
   transition: background-color .3s;
   border: 1px solid #ddd;
   border-radius: 30px 30px;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+h1{
+  font-size: 3rem;
+  text-align: center;
+}
+span{
+  display: inline;
+}
+
 }
 </style>

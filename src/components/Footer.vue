@@ -4,7 +4,7 @@
         <div class="row">
           <div class="col-md-3 main_content">
             <img src='~@/assets/img_4/Frame.png' style="width: 140px;">
-            <p>
+            <p class="main_text">
               <span>Remitting Productive Knowledge to</span>
               <span> Africans on the Continent.</span>
             </p>
@@ -23,20 +23,20 @@
           </div>
           <div class="col-md-3 main_content">
             <h1>Contact Us</h1>
-            <p>
+            <p class="sub_text">
               <span>50, Ogbomoso-Ilorin Rd, </span>
               <span>General Area, Ogbomoso</span>
             </p>
             <div class="container social">
               <div class="row justify-content-center">
                 <div class="col facebook">
-                  <img src='~@/assets/img_3/facebook.png' style="width: 40px;">
+                  <img src='~@/assets/img_3/facebook.png' class="img-fluid">
                 </div>
                 <div class="col insta">
-                  <img src='~@/assets/img_3/IG.png' style="width: 40px;">
+                  <img src='~@/assets/img_3/IG.png' class="img-fluid">
                 </div>
                 <div class="col linkedin">
-                  <img src='~@/assets/img_3/linkedin.png' style="width: 40px;">
+                  <img src='~@/assets/img_3/linkedin.png' class="img-fluid">
                 </div>
               </div>
             </div>
@@ -77,5 +77,30 @@ h1{
 .social .insta, .social .facebook, .social .linkedin{
   padding-left: 0rem;
   padding-right: 0rem;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+.footer{
+  text-align: center;
+}
+h1{
+  padding-top: 4rem;
+  padding-bottom: 0rem;
+}
+.main_text span{
+  display: block;
+}
+.sub_text span{
+  display: block;
+}
+span{
+  display: inline;
+}
+.social{
+  padding: 1rem 5rem 1rem 5rem;
+}
 }
 </style>
