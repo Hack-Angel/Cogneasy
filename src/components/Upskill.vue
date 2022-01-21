@@ -167,7 +167,7 @@ span{
     padding: 1rem 3rem 1rem 3rem;
 }
 .sub_content{
-    padding-top: 4rem;
+    padding-top: 3rem;
 }
 }
 </style>

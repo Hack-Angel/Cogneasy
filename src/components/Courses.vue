@@ -8,10 +8,10 @@
                     <span>brightest faculty</span>
                 </h2>
             </div>
-            <div class="row">
-                <div class="col courses_main">
-                    <div class="card main_content sub_img" style="width: 20rem;">
-                        <img src="~@/assets/img_2/skill_img1.jpg" class="card-img-top" alt="...">
+            <div class="row justify-content-evenly">
+                <div class="col-md-3 courses_main">
+                    <div class="card main_content sub_img">
+                        <img src="~@/assets/img_2/skill_img1.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                             <a class="btn">Available</a>
                             <h5 class="card-title sub_text">
@@ -22,9 +22,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col courses_main">
-                    <div class="card main_content" style="width: 20rem;">
-                        <img src="~@/assets/img_2/skill_img2.jpg" class="card-img-top" alt="...">
+                <div class="col-md-3 courses_main">
+                    <div class="card main_content">
+                        <img src="~@/assets/img_2/skill_img2.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                             <a class="btn">Available</a>
                             <h5 class="card-title sub_text">
@@ -35,9 +35,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col courses_main">
-                    <div class="card main_content" style="width: 20rem;">
-                        <img src="~@/assets/img_2/skill_img3.jpg" class="card-img-top" alt="...">
+                <div class="col-md-3  courses_main">
+                    <div class="card main_content">
+                        <img src="~@/assets/img_2/skill_img3.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                             <a class="btn">Available</a>
                             <h5 class="card-title sub_text">
@@ -49,10 +49,10 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-            <div class="col courses_main">
-                <div class="card main_content sub_img" style="width: 20rem;">
-                    <img src="~@/assets/img_2/skill_img1.jpg" class="card-img-top" alt="...">
+            <div class="row justify-content-evenly">
+            <div class="col-md-3  courses_main">
+                <div class="card main_content sub_img">
+                    <img src="~@/assets/img_2/skill_img1.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
                         <h5 class="card-title sub_text">
@@ -63,9 +63,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col courses_main">
-                <div class="card main_content" style="width: 20rem;">
-                    <img src="~@/assets/img_2/skill_img2.jpg" class="card-img-top" alt="...">
+            <div class="col-md-3  courses_main">
+                <div class="card main_content">
+                    <img src="~@/assets/img_2/skill_img2.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
                         <h5 class="card-title sub_text">
@@ -76,9 +76,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col courses_main">
-                <div class="card main_content" style="width: 20rem;">
-                    <img src="~@/assets/img_2/skill_img3.jpg" class="card-img-top" alt="...">
+            <div class="col-md-3  courses_main">
+                <div class="card main_content">
+                    <img src="~@/assets/img_2/skill_img3.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
                         <h5 class="card-title sub_text">
@@ -90,10 +90,10 @@
                 </div>
             </div>
             </div>
-            <div class="row">
-            <div class="col courses_main">
-                <div class="card main_content sub_img" style="width: 20rem;">
-                    <img src="~@/assets/img_2/skill_img1.jpg" class="card-img-top" alt="...">
+            <div class="row justify-content-evenly">
+            <div class="col-md-3  courses_main">
+                <div class="card main_content sub_img">
+                    <img src="~@/assets/img_2/skill_img1.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
                         <h5 class="card-title sub_text">
@@ -104,9 +104,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col courses_main">
-                <div class="card main_content" style="width: 20rem;">
-                    <img src="~@/assets/img_2/skill_img2.jpg" class="card-img-top" alt="...">
+            <div class="col-md-3  courses_main">
+                <div class="card main_content">
+                    <img src="~@/assets/img_2/skill_img2.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
                         <h5 class="card-title sub_text">
@@ -117,9 +117,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col courses_main">
-                <div class="card main_content" style="width: 20rem;">
-                    <img src="~@/assets/img_2/skill_img3.jpg" class="card-img-top" alt="...">
+            <div class="col-md-3  courses_main">
+                <div class="card main_content">
+                    <img src="~@/assets/img_2/skill_img3.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
                         <h5 class="card-title sub_text">
@@ -151,8 +151,19 @@ export default{
   padding-top: 5rem;
   padding-bottom: 10rem;
 }
-.sub_img img{
+/* .courses_main{
+    padding: 0.5rem;
+} */
+/* .sub_img img{
      border-radius: 0px 30px 30px 30px;
+} */
+.courses_main .main_content {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0px;
+}
+img{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0px;
 }
 .main_content{
     border-radius: 0 30px 30px 30px;
