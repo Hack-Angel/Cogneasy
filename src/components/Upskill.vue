@@ -108,7 +108,7 @@ span{
 .btn{
     font-weight: normal;
     padding: 0.5rem 1.5rem;
-    border-radius:0 30px;
+    border-radius:0 25px;
     color: white;
     background-color: #FF9E01;
 }

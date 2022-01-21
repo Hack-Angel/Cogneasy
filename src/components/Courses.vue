@@ -189,7 +189,7 @@ span{
 .btn{
     font-weight: normal;
     padding: 0.3rem 1rem;
-    border-radius:0 30px;
+    border-radius:0 20px;
     color: white;
     background-color: #FF9E01;
 }

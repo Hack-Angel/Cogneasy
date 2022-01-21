@@ -82,16 +82,20 @@ p{
 }
 .main_content{
   width: 400px;
+  height: 250px;
+  border-radius: 0px 120px;
+  padding-top: 1rem;
 }
 .btn{
   padding: 1rem 2rem;
-  font-size: 14px;
+  font-size: 13px;
 }
 h1{
-  font-size: 30px;
+  font-size: 25px;
 }
 p{
   font-size: 15px;
+  padding-bottom: 0rem;
 }
 }
 </style>
