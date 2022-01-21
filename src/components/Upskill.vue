@@ -11,7 +11,7 @@
         <div class="row justify-content-evenly">
             <div class="col-md-3 card_body">
                 <div class="card main_content sub_img">
-                    <img src="~@/assets/img_2/skill_img1.jpg" class="card-img-top" alt="...">
+                    <img src="~@/assets/img_2/skill_img1.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
                         <h5 class="card-title sub_text">
@@ -24,7 +24,7 @@
             </div>
             <div class="col-md-3 card_body">
                 <div class="card main_content">
-                    <img src="~@/assets/img_2/skill_img2.jpg" class="card-img-top" alt="...">
+                    <img src="~@/assets/img_2/skill_img2.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
                         <h5 class="card-title sub_text">
@@ -37,7 +37,7 @@
             </div>
             <div class="col-md-3 card_body">
                 <div class="card main_content">
-                    <img src="~@/assets/img_2/skill_img3.jpg" class="card-img-top" alt="...">
+                    <img src="~@/assets/img_2/skill_img3.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <a class="btn">Available</a>
                         <h5 class="card-title sub_text">
@@ -73,15 +73,20 @@ export default {
     padding-top: 2rem;
     padding-bottom: 5rem;
 }
-.sub_img img{
-     border-radius: 0px 30px 30px 30px;
-}
 .card_body{
-    padding: 0.5rem;
+     padding: 0.5rem;
+}
+.card_body .main_content {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0px;
+}
+img{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0px;
 }
 .main_content{
-    border-radius: 0 30px 30px 30px;
-    box-shadow: 0px 3px 10px 10px #0640b41a;
+    border-radius: 0px 30px 30px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .main_text{
     padding-bottom: 5rem;
@@ -102,7 +107,7 @@ span{
 }
 .btn{
     font-weight: normal;
-    padding: 0.3rem 1rem;
+    padding: 0.5rem 1.5rem;
     border-radius:0 30px;
     color: white;
     background-color: #FF9E01;
@@ -146,5 +151,23 @@ img{
 .sub_content{
   padding-top: 8rem;
   text-align: center;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+
+span{
+   display: inline;
+   font-size: 35px;
+}
+.card_body{
+    padding: 1rem 3rem 1rem 3rem;
+}
+.sub_content{
+    padding-top: 4rem;
+}
 }
 </style>

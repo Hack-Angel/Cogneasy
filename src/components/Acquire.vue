@@ -1,7 +1,7 @@
 <template>
     <div class="acquire">
-        <div class="container">
-           <Navbar />
+        <Navbar />
+        <div class="container">  
            <Build />
            <Courses />
         </div>
@@ -27,6 +27,10 @@ export default{
 </script>
 
 <style scoped>
+.nav_shadow{
+  background-color: white;
+  box-shadow: 0px 3px 10px 0px #0640b41a;
+}
 .acquire{
   background-color: white;
   box-shadow: 0px 3px 10px 0px #0640b41a;

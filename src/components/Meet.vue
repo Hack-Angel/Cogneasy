@@ -78,7 +78,7 @@ img {
 }
 .main-content{
     border-radius:0 30px 30px 30px;
-    box-shadow: 0px 3px 10px 10px #0640b41a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .main_body{
     padding: 2rem;
@@ -137,5 +137,23 @@ img {
     font-size: 40px;
     text-align: center;
     padding-bottom: 5rem;
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+.meet{
+    padding-top: 3rem;
+}
+.meet_text{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+.main_body{
+    padding: 2rem 5rem 2rem 5rem;
+}
 }
 </style>

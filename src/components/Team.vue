@@ -2,7 +2,7 @@
     <div class="team">
         <div class="container">
             <h1>OUR TEAM</h1>
-           <div class="row text-center justify-content-around">
+           <div class="row text-center justify-content-evenly">
                <div class="col-md-3 main_body">
                    <img src='~@/assets/img_5/Oval_1.jpg' class="img-fluid">
                    <h2>Jesudamilare Adesegun-David</h2>

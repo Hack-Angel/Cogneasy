@@ -28,15 +28,15 @@
               <span>General Area, Ogbomoso</span>
             </p>
             <div class="container social">
-              <div class="row">
-                <div class="col">
-                  <img src='~@/assets/img_3/facebook.png' style="width: 50px;">
+              <div class="row justify-content-center">
+                <div class="col facebook">
+                  <img src='~@/assets/img_3/facebook.png' style="width: 40px;">
                 </div>
-                <div class="col">
-                  <img src='~@/assets/img_3/IG.png' style="width: 50px;">
+                <div class="col insta">
+                  <img src='~@/assets/img_3/IG.png' style="width: 40px;">
                 </div>
-                <div class="col">
-                  <img src='~@/assets/img_3/linkedin.png' style="width: 50px;">
+                <div class="col linkedin">
+                  <img src='~@/assets/img_3/linkedin.png' style="width: 40px;">
                 </div>
               </div>
             </div>
@@ -74,7 +74,8 @@ h1{
 .main_content img{
   padding-bottom: 2rem;
 }
-.social{
+.social .insta, .social .facebook, .social .linkedin{
   padding-left: 0rem;
+  padding-right: 0rem;
 }
 </style>

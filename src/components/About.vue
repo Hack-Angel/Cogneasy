@@ -1,7 +1,7 @@
 <template>
     <div class="about">
+         <Navbar />
         <div class="container">
-            <Navbar />
             <Platform />
             <Diaspora />
             <Team />
@@ -31,6 +31,10 @@ export default{
 </script>
 
 <style scoped>
+.nav_shadow{
+  background-color: white;
+  box-shadow: 0px 3px 10px 0px #0640b41a;
+}
 .about {
   background-color: white;
   box-shadow: 0px 3px 10px 0px #0640b41a;

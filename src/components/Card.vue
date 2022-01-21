@@ -62,7 +62,7 @@ h1{
     border-radius: 0 30px 0 30px;
     height: 10rem;
     text-align: center;
-    box-shadow: 0px 3px 10px 8px #0640b41a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .main_content:hover {
     background-color: #FF9E01;
@@ -76,5 +76,18 @@ h1{
   left: 0px;
   bottom: 15px;
   z-index: -5; 
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+.card_bg{
+  display: none;
+}
+.main_body{
+  padding: 1rem 5rem 1rem 5rem;
+} 
+
 }
 </style>

@@ -11,17 +11,17 @@
           <div class="container banner_content">
             <div class="row justify-content-center1 ">
               <div class="col-md-7 sub_text">
-                <div class="col">
-                <h1>
-                  <span>Get mentored; </span>
-                  <span>Get upskilled. </span>     
-                </h1>
-                <button type="button" class="btn btn-primary">Learn More</button>
+                <div class="col main_cont">
+                  <h1>
+                    <span>Get mentored; </span>
+                    <span>Get upskilled. </span>     
+                  </h1>
+                  <button type="button" class="btn btn-primary">Learn More</button>
                 </div>
                   <div class="pagination">
-                      <a href="#">❮</a>
-                      <a href="#">❯</a>
-                  </div>
+                  <a href="#" class="next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">❮</a>
+                  <a href="#" class="prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">❯</a>
+                </div>
               </div>
               <div class="col-md-5">
                 <img src='~@/assets/img_1/banner_img.jpg' class="img-fluid">
@@ -33,17 +33,17 @@
           <div class="container banner_content">
             <div class="row justify-content-center">
               <div class="col-md-7 sub_text">
-                <div class="col">
-                <h2>
-                  <span>Explore and connect </span>
-                  <span> with mentors across</span>
-                  <span> the world</span>
-                </h2>
-                <button type="button" class="btn btn-primary">Find a Mentor</button>
+                <div class="col main_cont">
+                  <h2>
+                    <span>Explore and connect </span>
+                    <span> with mentors across</span>
+                    <span> the world</span>
+                  </h2>
+                  <button type="button" class="btn btn-primary">Find a Mentor</button>
                 </div>
                 <div class="pagination">
-                  <a href="#">❮</a>
-                  <a href="#">❯</a>
+                  <a href="#" class="next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">❮</a>
+                  <a href="#" class="prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">❯</a>
                 </div>
               </div>
               <div class="col-md-5">
@@ -56,17 +56,17 @@
           <div class="container banner_content">
             <div class="row justify-content-center">
               <div class="col-md-7 sub_text">
-                <div class="col">
-                <h3>
-                  <span>Acquire cutting-edge</span>
-                  <span> skills that gives you</span>
-                  <span> an advantage. </span>
-                </h3>
-                <button type="button" class="btn btn-primary">Start Learning</button>
+                <div class="col main_cont">
+                  <h3>
+                    <span>Acquire cutting-edge</span>
+                    <span> skills that gives you</span>
+                    <span> an advantage. </span>
+                  </h3>
+                  <button type="button" class="btn btn-primary">Start Learning</button>
                 </div>
                 <div class="pagination">
-                  <a href="#">❮</a>
-                  <a href="#">❯</a>
+                  <a href="#" class="next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">❮</a>
+                  <a href="#" class="prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">❯</a>
                 </div>
               </div>
               <div class="col-md-5">
@@ -76,14 +76,6 @@
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-        <!-- <span class="visually-hidden">Previous</span> -->
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-        <!-- <span class="visually-hidden">Next</span> -->
-      </button>
     </div>
   </div>
 </template>
@@ -155,10 +147,70 @@ h3{
 .pagination a {
   background-color: white;
   float: left;
-  padding: 8px 16px;
+  padding: 12px 20px;
   text-decoration: none;
   transition: background-color .3s;
   border: 1px solid #ddd;
   border-radius: 30px 30px;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0px 3px 10px 2px #0640b41a;
+}
+.pagination :hover {
+  background-color: #FF9E01;
+  color: white;
+}
+.pagination .next{
+  margin-right: 1.5rem;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width:600px) {
+
+h1{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+span{
+  display: inline;
+}
+.sub_text h1{
+  padding-bottom: 4rem;
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+h3{
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.main_cont{
+  text-align: center;
+}
+.btn {
+  padding: 1rem 2rem;
+  text-align: center;
+}
+.pagination{
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 }
 </style>

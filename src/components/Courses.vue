@@ -156,7 +156,7 @@ export default{
 }
 .main_content{
     border-radius: 0 30px 30px 30px;
-    box-shadow: 0px 3px 10px 10px #0640b41a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .main_text{
     padding-bottom: 5rem;
