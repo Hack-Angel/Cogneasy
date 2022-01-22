@@ -35,4 +35,15 @@ export default{
   background-color: white;
   box-shadow: 0px 3px 10px 0px #0640b41a;
 }
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+span{
+  display: inline
+}
+
+}
 </style>

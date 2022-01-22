@@ -11,7 +11,7 @@
                    <div class="card main_content">
                         <div class="card-body card_body">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-3 card_img">
                                     <img src='~@/assets/img_3/meet_img3.jpg' class="img-fluid" style="width: 5rem;">
                                 </div>
                                  <div class="col-md-9 main_text">
@@ -43,7 +43,7 @@
                     <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 card_img">
                                         <img src='~@/assets/img_3/meet_img2.jpg' class="img-fluid" style="width: 5rem;">
                                     </div>
                                     <div class="col-md-8 main_text">
@@ -77,7 +77,7 @@
                    <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-3 card_img">
                                     <img src='~@/assets/img_3/meet_img1.jpg' class="img-fluid" style="width: 5rem;">
                                 </div>
                                  <div class="col-md-9 main_text">
@@ -109,7 +109,7 @@
                     <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 card_img">
                                         <img src='~@/assets/img_3/tobenna_p.jpg' class="img-fluid" style="width: 5rem;">
                                     </div>
                                     <div class="col-md-8 main_text">
@@ -143,7 +143,7 @@
                    <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-3 card_img">
                                     <img src='~@/assets/img_3/chima_omike.jpg' class="img-fluid" style="width: 5rem;">
                                 </div>
                                  <div class="col-md-9 main_text">
@@ -177,7 +177,7 @@
                     <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 card_img">
                                         <img src='~@/assets/img_3/emmanuel.jpg' class="img-fluid" style="width: 5rem;">
                                     </div>
                                     <div class="col-md-9 main_text">
@@ -214,7 +214,7 @@
                    <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-3 card_img">
                                     <img src='~@/assets/img_3/adekola.jpg' class="img-fluid" style="width: 5rem;">
                                 </div>
                                  <div class="col-md-9 card-text main_text">
@@ -248,7 +248,7 @@
                     <div class="card main_content">
                         <div class="card-body">
                             <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 card_img">
                                         <img src='~@/assets/img_3/cletus.jpg' class="img-fluid" style="width: 5rem;">
                                     </div>
                                     <div class="col-md-9 card-text main_text">
@@ -369,7 +369,7 @@ h4{
 .sub_btn{
     text-align: center;
 }
-h5{
+h5 {
     text-align: center;
     font-size: 40px;
     padding-top: 8rem;
@@ -377,6 +377,11 @@ h5{
 }
 
 
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width:600px) {
 span{
   display: inline
@@ -392,7 +397,14 @@ h2{
   padding-bottom: 2rem;
 }
 h5{
+  text-align: center;
   font-size: 35px;
+}
+.card_img{
+  text-align: center;
+}
+.main_text h1, .main_text h2, h4{
+    text-align: center;
 }
 }
 </style>
