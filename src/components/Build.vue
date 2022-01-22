@@ -84,4 +84,21 @@ h3{
   border: 1px solid #ddd;
   border-radius: 30px 30px;
 }
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+span{
+  display: inline
+}
+.build{
+  padding-top: 2rem;
+}
+h1{
+  font-size: 3rem;
+  text-align: center;
+}
+}
 </style>

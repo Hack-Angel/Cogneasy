@@ -151,12 +151,6 @@ export default{
   padding-top: 5rem;
   padding-bottom: 10rem;
 }
-/* .courses_main{
-    padding: 0.5rem;
-} */
-/* .sub_img img{
-     border-radius: 0px 30px 30px 30px;
-} */
 .courses_main .main_content {
     border-top-left-radius: 50px;
     border-top-right-radius: 0px;
@@ -207,5 +201,21 @@ img{
 }
 .courses_main{
     padding-bottom: 2rem;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+.courses{
+  padding-top: 0rem;
+}
+.main_text h2{
+  font-size: 35px;
+}
+.courses_main{
+    padding: 1.5rem 3rem;
+}
 }
 </style>

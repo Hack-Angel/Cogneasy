@@ -3,18 +3,18 @@
         <div class="container text-center">
            <h1>Contact Us</h1>
            <div class="row">
-               <div class="col text-center">
+               <div class="col-md-4 text-center">
                    <h2>CALL</h2>
                    <p>+234 816 5619 337</p>
                </div>
-               <div class="col">
+               <div class="col-md-4">
                    <h2>VISIT</h2>
                    <p>
                        <span>50, Ogbomoso Ilorin Road,</span>
                        <span> General Area, Ogbomoso.</span>
                    </p>
                </div>
-               <div class="col">
+               <div class="col-md-4">
                    <h2>EMAIL</h2>
                    <p>hello@cogneasy.com</p>
                </div>
@@ -51,5 +51,15 @@ h2{
 }
 p{
     font-weight: bold;
+}
+
+
+@media only screen and (max-width:600px) {
+.visit{
+    padding-bottom: 10rem;
+}
+h1{
+    font-size: 3rem;
+}
 }
 </style>

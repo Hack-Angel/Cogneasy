@@ -31,4 +31,11 @@ export default{
 .contact{
   background-color: white;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+
+}
 </style>
