@@ -10,11 +10,11 @@
                <div class="col-md-6 catalogue_main">
                    <div class="card main_content">
                         <div class="card-body card_body">
-                            <div class="row">
-                                <div class="col-md-3 card_img">
-                                    <img src='~@/assets/img_3/meet_img3.jpg' class="img-fluid" style="width: 5rem;">
+                            <div class="row card_content">
+                                <div class="col-md-2 card_img">
+                                    <img src='~@/assets/img_3/meet_img3.jpg' class="img-fluid">
                                 </div>
-                                 <div class="col-md-9 main_text">
+                                 <div class="col-md-8 main_text">
                                     <h1>Dare Oduale</h1>
                                     <h2>Agile/Scrum Master, Great Britain</h2>
                                  </div>
@@ -42,9 +42,9 @@
                 <div class="col-md-6 catalogue_main">
                     <div class="card main_content">
                         <div class="card-body">
-                            <div class="row">
+                            <div class="row card_content">
                                     <div class="col-md-2 card_img">
-                                        <img src='~@/assets/img_3/meet_img2.jpg' class="img-fluid" style="width: 5rem;">
+                                        <img src='~@/assets/img_3/meet_img2.jpg' class="img-fluid">
                                     </div>
                                     <div class="col-md-8 main_text">
                                         <h1>John Ohakim</h1>
@@ -76,11 +76,11 @@
                <div class="col-md-6 catalogue_main">
                    <div class="card main_content">
                         <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-3 card_img">
-                                    <img src='~@/assets/img_3/meet_img1.jpg' class="img-fluid" style="width: 5rem;">
+                            <div class="row card_content">
+                                <div class="col-md-2 card_img">
+                                    <img src='~@/assets/img_3/meet_img1.jpg' class="img-fluid">
                                 </div>
-                                 <div class="col-md-9 main_text">
+                                 <div class="col-md-8 main_text">
                                     <h1>Samuel Osho</h1>
                                     <h2>Corporate Communications, Canada</h2>
                                  </div>
@@ -108,9 +108,9 @@
                 <div class="col-md-6 catalogue_main">
                     <div class="card main_content">
                         <div class="card-body">
-                            <div class="row">
+                            <div class="row card_content">
                                     <div class="col-md-2 card_img">
-                                        <img src='~@/assets/img_3/tobenna_p.jpg' class="img-fluid" style="width: 5rem;">
+                                        <img src='~@/assets/img_3/tobenna_p.jpg' class="img-fluid">
                                     </div>
                                     <div class="col-md-8 main_text">
                                         <h1>Dr Tobenna Philips</h1>
@@ -142,11 +142,11 @@
                <div class="col-md-6 catalogue_main">
                    <div class="card main_content">
                         <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-3 card_img">
-                                    <img src='~@/assets/img_3/chima_omike.jpg' class="img-fluid" style="width: 5rem;">
+                            <div class="row card_content">
+                                <div class="col-md-2 card_img">
+                                    <img src='~@/assets/img_3/chima_omike.jpg' class="img-fluid">
                                 </div>
-                                 <div class="col-md-9 main_text">
+                                 <div class="col-md-8 main_text">
                                     <h1>Chima Omike</h1>
                                     <h2><span>Software QA/Renewable Energy,</span>
                                         <span>USA</span>
@@ -176,11 +176,11 @@
                 <div class="col-md-6 catalogue_main">
                     <div class="card main_content">
                         <div class="card-body">
-                            <div class="row">
-                                    <div class="col-md-3 card_img">
-                                        <img src='~@/assets/img_3/emmanuel.jpg' class="img-fluid" style="width: 5rem;">
+                            <div class="row card_content">
+                                    <div class="col-md-2 card_img">
+                                        <img src='~@/assets/img_3/emmanuel.jpg' class="img-fluid">
                                     </div>
-                                    <div class="col-md-9 main_text">
+                                    <div class="col-md-8 main_text">
                                         <h1>Emmanuel O. Adesuyi</h1>
                                         <h2>
                                             <span>Epidemiology/Genomics/Oncology,</span>
@@ -213,11 +213,11 @@
                <div class="col-md-6 catalogue_main">
                    <div class="card main_content">
                         <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-3 card_img">
-                                    <img src='~@/assets/img_3/adekola.jpg' class="img-fluid" style="width: 5rem;">
+                            <div class="row card_content">
+                                <div class="col-md-2 card_img">
+                                    <img src='~@/assets/img_3/adekola.jpg' class="img-fluid">
                                 </div>
-                                 <div class="col-md-9 card-text main_text">
+                                 <div class="col-md-8 card-text main_text">
                                     <h1>Adeola Fakolade</h1>
                                     <h2><span>Preventive Medicine/Digital</span>
                                         <span>Health Solutions, USA</span>
@@ -247,11 +247,11 @@
                 <div class="col-md-6 catalogue_main">
                     <div class="card main_content">
                         <div class="card-body">
-                            <div class="row">
-                                    <div class="col-md-3 card_img">
-                                        <img src='~@/assets/img_3/cletus.jpg' class="img-fluid" style="width: 5rem;">
+                            <div class="row card_content">
+                                    <div class="col-md-2 card_img">
+                                        <img src='~@/assets/img_3/cletus.jpg' class="img-fluid">
                                     </div>
-                                    <div class="col-md-9 card-text main_text">
+                                    <div class="col-md-8 card-text main_text">
                                         <h1>Cletus Ajibade</h1>
                                         <h2><span>Software Engineering/Social</span> 
                                             <span>Entrepreneurship, USA</span>
@@ -330,18 +330,31 @@ h2{
     border-radius: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.main_text{
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
 .main_text h1{
     font-size: 18px;
     color: #FF9E01;
     text-align: left;
+    /* padding-top: 1rem; */
+}
+.card_content{
     padding-top: 1rem;
 }
 .main_text h2{
     font-size: 16px;
     text-align: left;
 }
+.card_img{
+    padding-right: 0rem;
+    padding-top: 0.5rem;
+}
 h4{
     font-size: 18px;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
 }
 .btn {
   border: none;
@@ -400,11 +413,14 @@ h5{
   text-align: center;
   font-size: 35px;
 }
+img{
+    width: 30%;
+}
 .card_img{
   text-align: center;
 }
 .main_text h1, .main_text h2, h4{
-    text-align: center;
+  text-align: center;
 }
 }
 </style>
