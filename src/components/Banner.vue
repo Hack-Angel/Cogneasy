@@ -169,7 +169,10 @@ h3{
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width:600px) {
-
+.banner_content{
+  display: flex;
+  flex-direction: column-reverse;
+}
 h1{
   font-size: 3rem;
   font-weight: bold;

@@ -29,15 +29,15 @@
             </p>
             <div class="container social">
               <div class="row justify-content-center">
-                <div class="col facebook">
+                <a href="/" class="col facebook">
                   <img src='~@/assets/img_3/facebook.png' class="img-fluid">
-                </div>
-                <div class="col insta">
+                </a>
+                <a href="/" class="col insta">
                   <img src='~@/assets/img_3/IG.png' class="img-fluid">
-                </div>
-                <div class="col linkedin">
+                </a>
+                <a href="/" class="col linkedin">
                   <img src='~@/assets/img_3/linkedin.png' class="img-fluid">
-                </div>
+                </a>
               </div>
             </div>
           </div>
