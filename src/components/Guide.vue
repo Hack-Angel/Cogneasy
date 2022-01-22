@@ -105,4 +105,25 @@ h3{
   border: 1px solid #ddd;
   border-radius: 30px 30px;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+span{
+  display: inline
+}
+.sub_text h1{
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+}
+h2{
+  font-size: 40px;
+  text-align: center;
+}
+h3{
+  font-size: 35px;
+  text-align: center;
+}
+}
 </style>

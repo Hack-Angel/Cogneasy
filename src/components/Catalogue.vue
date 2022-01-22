@@ -375,4 +375,24 @@ h5{
     padding-top: 8rem;
     padding-bottom: 3rem;
 }
+
+
+@media only screen and (max-width:600px) {
+span{
+  display: inline
+}
+h2{
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+.main_content{
+  padding-left: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+h5{
+  font-size: 35px;
+}
+}
 </style>
