@@ -29,13 +29,13 @@
             </p>
             <div class="container social">
               <div class="row justify-content-center">
-                <a href="/" class="col facebook">
+                <a href="https://web.facebook.com/officialcogneasy" target="_blank" class="col facebook">
                   <img src='~@/assets/img_3/facebook.png' class="img-fluid">
                 </a>
-                <a href="/" class="col insta">
+                <a href="https://www.instagram.com/cogneasy/" target="_blank" class="col insta">
                   <img src='~@/assets/img_3/IG.png' class="img-fluid">
                 </a>
-                <a href="/" class="col linkedin">
+                <a href="/" target="_blank" class="col linkedin">
                   <img src='~@/assets/img_3/linkedin.png' class="img-fluid">
                 </a>
               </div>
