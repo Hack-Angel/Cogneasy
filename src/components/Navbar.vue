@@ -4,8 +4,13 @@
                  <a class="navbar-brand" href="#">
                     <router-link to="/"><img src='~@/assets/img_1/favicon.png' alt="HTML5 Icon" width='160px'></router-link>
                 </a>
-                <button class="navbar-toggler toggle_bar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon toggler_icon"></span>
+                <button class="navbar-toggler toggle_bar border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="my-1 mx-2 close">
+                        x
+                    </span>
+                    <span class="navbar-toggler-icon">
+
+                    </span>
                 </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">        
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -28,9 +33,7 @@
 </template>
 
 <script>
-export default {
-  
-}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -51,9 +54,15 @@ a{
 a:hover {
     color: #FF9E01;
 }
-.toggle_bar{
-    color: #0640B4; 
-    border-color:#0640B4;
-}
 
+.navbar-toggle {
+    border: none;
+    background: transparent !important;
+}
+.navbar-toggler>.close {
+    display:inline;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display:none;
+}
 </style>
